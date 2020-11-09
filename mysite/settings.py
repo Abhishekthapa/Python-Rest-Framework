@@ -162,3 +162,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media_cdn')
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 # cdn--> content delivery network
+
+django_heroku.settings(locals())
